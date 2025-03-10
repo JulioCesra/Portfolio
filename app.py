@@ -55,6 +55,7 @@ class pagina_principal():
             st.subheader(':blue[Descrição:] Manipulação do dataset com o propósito de criar insights interativos e treinar modelos de machine learning afim de prever o valor dos carros')
             st.subheader(':blue[Tecnologias:] Python, Pandas, Sklearn, Seaborn, Plotly Express, Matplotlib')
             st.subheader(':blue[Destaque:] Visualização da correlação dos dados, agrupamentos das colunas, métricas de erro dos modelos de machine learning, transformação de colunas categóricas em númericas, pie plot, histplot e boxplot para análise estatística')
+            st.link_button(label='Visualizar projeto no Kaggle',url='https://www.kaggle.com/code/juliosilv/values-of-cars-predicting-and-test-br/edit/run/223590671')
     def meus_contatos():
         meus_contatos_container = st.container()
         meus_contatos_container.title(':blue[Meus Contatos]')

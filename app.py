@@ -40,7 +40,7 @@ class pagina_principal():
             st.subheader(':blue[Destaque:] Identificação de valores nulos, percentual das doenças e tipos de tratamento')
             st.link_button(label='Visualizar projeto no Kaggle',url='https://www.kaggle.com/code/juliosilv/lungs-diseases-graphic-analysis-and-data-tratament')
         with col3:
-            st.title('Insuficiência Cardiáca: Estudo e Implemtanção de Machine Learning')
+            st.title('Insuficiência Cardiáca: Estudo e Implementação de Machine Learning')
             st.image('grafico3.png')
             st.subheader(':blue[Descrição:] Visualização de dados númericos, entender as causas da insuficiência cardiáca e prevenir')
             st.subheader(':blue[Tecnologias:] Python, Pandas, Sklearn, Matplotlib e Seaborn')
@@ -48,12 +48,13 @@ class pagina_principal():
             st.link_button(label='Visualizar projeto no Kaggle',url='https://www.kaggle.com/code/juliosilv/heart-failure-ml-and-analysis-for-study')
         
         # Próximos Projetos
-        #col4, col5, col6 = st.columns(3, border=True)
-        #with col4:
-        #    st.title('Gerenciador de Pacientes')
-        #    st.subheader(':blue[Descrição:] Site hospedado online com implementação de banco de dados para adicionar, remover, alterar e excluir pacientes, assim como visualizar os dados em tempo real')
-        #    st.subheader(':blue[Tecnologias:] Python, Pandas, Streamlit e SQLAlchemy')
-        #    st.subheader(':blue[Destaque:] Site com registro único individual de usuário, com a possibilidade de visualizar online o dataset, fácil de utilizar e simples de entender')
+        col4, col5, col6 = st.columns(3, border=True)
+        with col4:
+            st.title('Preço dos carros: Prevendo Valores Atráves da Regressão Linear')
+            st.image('grafico4.png')
+            st.subheader(':blue[Descrição:] Manipulação do dataset com o propósito de criar insights interativos e treinar modelos de machine learning afim de prever o valor dos carros')
+            st.subheader(':blue[Tecnologias:] Python, Pandas, Sklearn, Seaborn, Plotly Express, Matplotlib')
+            st.subheader(':blue[Destaque:] Visualização da correlação dos dados, agrupamentos das colunas, métricas de erro dos modelos de machine learning, transformação de colunas categóricas em númericas, pie plot, histplot e boxplot para análise estatística')
     def meus_contatos():
         meus_contatos_container = st.container()
         meus_contatos_container.title(':blue[Meus Contatos]')

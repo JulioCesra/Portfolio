@@ -28,21 +28,21 @@ class pagina_principal():
         with col1:
             st.title('Músicas Spotify: Análise Gráfica')
             st.image('grafico2.png')
-            st.subheader(':blue[Descrição:] Visualização de gráficos, entender a tendência dos dados e como eles se relacionam')
+            st.subheader(':blue[Descrição:] Este projeto analisa agrupamentos, relacionamento e tendência dos dados')
             st.subheader(':blue[Tecnologias:] Python, Pandas, Matplotlib e Seaborn')
             st.subheader(':blue[Destaque:] Análise gráfica das visualizações, popularidade, artistas mais escutados, álbuns mais escutados, idioma mais visualizado, compositores e produtores mais populares')
             st.link_button(label='Visualizar projeto no Kaggle', url='https://www.kaggle.com/code/juliosilv/songs-deep-analysis')
         with col2:
             st.title('Doenças Pulmonares: Análise e Tratamento de Dados')
             st.image('grafico1.png')
-            st.subheader(':blue[Descrição:] Visualização de agrupamentos atráves de gráficos de dados provenientes de informações sobre doenças pulmonares')
+            st.subheader(':blue[Descrição:] Este projeto tem como objetivo visualizar os agrupamentos de informações atráves de gráficos de dados provenientes de informações sobre doenças pulmonares')
             st.subheader(':blue[Tecnologias:] Python, Pandas, Matplotlib e Seaborn')
             st.subheader(':blue[Destaque:] Identificação de valores nulos, percentual das doenças e tipos de tratamento')
             st.link_button(label='Visualizar projeto no Kaggle',url='https://www.kaggle.com/code/juliosilv/lungs-diseases-graphic-analysis-and-data-tratament')
         with col3:
             st.title('Insuficiência Cardiáca: Estudo e Implementação de Machine Learning')
             st.image('grafico3.png')
-            st.subheader(':blue[Descrição:] Visualização de dados númericos, entender as causas da insuficiência cardiáca e prevenir')
+            st.subheader(':blue[Descrição:] Este projeto analisa a visualização de dados númericos, entender as causas da insuficiência cardiáca e como prever ocorrências futuras')
             st.subheader(':blue[Tecnologias:] Python, Pandas, Sklearn, Matplotlib e Seaborn')
             st.subheader(':blue[Destaque:] Análisar a correlação dos colunas númericas, boxplots, divisão de treino e teste, comparação de métricas de erros e escolha do modelo de classificação ou regressão')
             st.link_button(label='Visualizar projeto no Kaggle',url='https://www.kaggle.com/code/juliosilv/heart-failure-ml-and-analysis-for-study')
@@ -52,10 +52,17 @@ class pagina_principal():
         with col4:
             st.title('Valor Automobilístico: Prevendo Valores Atráves da Regressão Linear')
             st.image('grafico4.png')
-            st.subheader(':blue[Descrição:] Manipulação do dataset com o propósito de criar insights e treinar modelos de machine learning afim de prever o valor dos carros')
+            st.subheader(':blue[Descrição:] Este projeto busca entender a manipulação e modelagem do dataset com o propósito de criar insights e treinar modelos de machine learning afim de prever o valor dos carros')
             st.subheader(':blue[Tecnologias:] Python, Pandas, Sklearn, Seaborn, Matplotlib')
             st.subheader(':blue[Destaque:] Visualização da correlação dos dados, agrupamentos das colunas, métricas de erro dos modelos de machine learning, transformação de colunas categóricas em númericas, pie plot, histplot e boxplot para análise estatística')
             st.link_button(label='Visualizar projeto no Kaggle',url='https://www.kaggle.com/code/juliosilv/values-of-cars-predicting-and-test-br')
+        with col5:
+            st.title('Fraudes em Transações de Crédito: Prevendo Atráves do Random Forest')
+            st.image('grafico5.png')
+            st.subheader(':blue[Descrição:] Este projeto analisa diferentes modelos de machine learning para prever fraudes em transações com cartão de crédito')
+            st.subheader(':blue[Tecnologias:] Python, Pandas, Sklearn, Seaborn, Matplotlib')
+            st.subheader(':blue[Destaque:] Visualização da correlação dos dados, métricas de erro dos modelos de machine learning, matrix de confusão, outliers e tempo de execução dos modelos treinados')
+            st.link_button(label='Visualizar projeto no Kaggle',url='https://www.kaggle.com/code/juliosilv/credit-card-fraud-random-forest-best-choice')
     def meus_contatos():
         meus_contatos_container = st.container()
         meus_contatos_container.title(':blue[Meus Contatos]')

@@ -50,10 +50,10 @@ class pagina_principal():
         # Próximos Projetos
         col4, col5, col6 = st.columns(3, border=True)
         with col4:
-            st.title('Preço dos carros: Prevendo Valores Atráves da Regressão Linear')
+            st.title('Valor Automobilístico: Prevendo Valores Atráves da Regressão Linear')
             st.image('grafico4.png')
             st.subheader(':blue[Descrição:] Manipulação do dataset com o propósito de criar insights e treinar modelos de machine learning afim de prever o valor dos carros')
-            st.subheader(':blue[Tecnologias:] Python, Pandas, Sklearn, Seaborn, Plotly Express, Matplotlib')
+            st.subheader(':blue[Tecnologias:] Python, Pandas, Sklearn, Seaborn, Matplotlib')
             st.subheader(':blue[Destaque:] Visualização da correlação dos dados, agrupamentos das colunas, métricas de erro dos modelos de machine learning, transformação de colunas categóricas em númericas, pie plot, histplot e boxplot para análise estatística')
             st.link_button(label='Visualizar projeto no Kaggle',url='https://www.kaggle.com/code/juliosilv/values-of-cars-predicting-and-test-br')
     def meus_contatos():

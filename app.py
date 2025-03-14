@@ -63,6 +63,14 @@ class pagina_principal():
             st.subheader(':blue[Tecnologias:] Python, Pandas, Sklearn, Seaborn, Matplotlib')
             st.subheader(':blue[Destaque:] Visualização da correlação dos dados, métricas de erro dos modelos de machine learning, matrix de confusão, outliers e tempo de execução dos modelos treinados')
             st.link_button(label='Visualizar projeto no Kaggle',url='https://www.kaggle.com/code/juliosilv/credit-card-fraud-random-forest-best-choice')
+        with col6:
+            st.title('Tipos de Obesidade: Prevendo Atráves do Modelo Gradient Boosting')
+            st.image('grafico6.png')
+            st.subheader(':blue[Descrição:] Este projeto analisa diferentes modelos de machine learning para prever se uma pessoa tem obesidade, e se tiver, qual tipo ela possui')
+            st.subheader(':blue[Tecnologias:] Python, Pandas, Sklearn, Seaborn, Matplotlib')
+            st.subheader(':blue[Destaque:] Visualização da correlação dos dados, agrupamento dos dados, métricas de erro dos modelos de machine learning, matrix de confusão, gráficos de dispersão e accuracy')
+            st.link_button(label='Visualizar projeto no Kaggle',url='https://www.kaggle.com/code/juliosilv/gradient-boosting-in-obesity-prediction-96')
+        
     def meus_contatos():
         meus_contatos_container = st.container()
         meus_contatos_container.title(':blue[Meus Contatos]')

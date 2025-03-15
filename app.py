@@ -71,6 +71,26 @@ class pagina_principal():
             st.subheader(':blue[Destaque:] Visualização da correlação dos dados, agrupamento dos dados, métricas de erro dos modelos de machine learning, matrix de confusão, gráficos de dispersão e accuracy')
             st.link_button(label='Visualizar projeto no Kaggle',url='https://www.kaggle.com/code/juliosilv/gradient-boosting-in-obesity-prediction-96')
         
+        col7, col8, col9 = st.columns(3, border=True)
+
+        with col7:
+            st.title('Vendas de Chocolate: Perguntas e Analise')
+            st.image('dashbord1.png')
+            st.subheader(':blue[Descrição:] Este projeto analisa informações das vendas de chocolate, receita por mês, país, vendedor e tipo do chocolate, assim como a quantidade vendida ')
+            st.subheader(':blue[Tecnologias:] Python, Pandas, Seaborn, Matplotlib, Power bi')
+            st.subheader(':blue[Destaque:] Entender os agrupamentos de cada variável presente no dataset, responder perguntas relacionadas as vendas de chocolate e visualizar a distribuição dos dados númericos atráves de gráficos estatísticos e criação de dashbord no power bi')
+            st.link_button(label='Visualizar projeto no Kaggle',url='https://www.kaggle.com/code/juliosilv/chocolate-sales-questions-and-analysis-pt-br?scriptVersionId=227650864')
+
+            file_path = 'chocolate analisys.pbit'
+
+            with open(file_path, "rb") as file:
+                btn = st.download_button(
+                label="Baixar Relatório Power BI",
+                data=file,
+                file_name="relatorio_powerbi.pbix",
+                mime="application/octet-stream"
+            )
+        
     def meus_contatos():
         meus_contatos_container = st.container()
         meus_contatos_container.title(':blue[Meus Contatos]')
